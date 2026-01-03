@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: cl.iplacex.AppTest
+Test set: cl.iplacex.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s -- in cl.iplacex.AppTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.323 s -- in cl.iplacex.RunCucumberTest
