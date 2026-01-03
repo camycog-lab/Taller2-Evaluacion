@@ -1,38 +1,19 @@
 package cl.iplacex;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
+public class AppTest {
+
+    @Test
+    public void testSuma() {
+        // Prueba atómica 1
+        assertEquals(10, 5 + 5, "La suma de 5+5 debe ser 10");
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+    @Test
+    public void testResta() {
+        // Prueba atómica 2
+        assertEquals(5, 10 - 5, "La resta de 10-5 debe ser 5");
     }
 }
