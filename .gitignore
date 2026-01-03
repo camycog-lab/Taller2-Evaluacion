@@ -1,0 +1,14 @@
+# Archivos compilados de Maven (Importante)
+target/
+
+# Archivos de IDEs (IntelliJ, Eclipse, VS Code)
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Archivos de Sistema
+.DS_Store
+Thumbs.db
